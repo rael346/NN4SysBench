@@ -1,5 +1,10 @@
-# Ignore Python cache files
+# Python-generated files
 __pycache__/
-*.py[cod]
-*/__pycache__/*
-*.compiled
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
